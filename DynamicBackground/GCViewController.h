@@ -10,4 +10,7 @@
 
 @interface GCViewController : UIViewController
 
+- (IBAction)setBackgroundBlue:(id)sender;
+- (IBAction)setBackgroundRed:(id)sender;
+
 @end
