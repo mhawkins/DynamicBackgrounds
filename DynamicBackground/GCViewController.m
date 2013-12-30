@@ -36,15 +36,23 @@
 #pragma mark - IBActions
 - (IBAction)setBackgroundBlue:(id)sender
 {
+    UIColor *startColor = [UIColor colorWithRed:0.310f green:0.678f blue:0.914f alpha:1.00f];
+    UIColor *endColor = [UIColor colorWithRed:0.251f green:0.486f blue:0.639f alpha:1.00f];
+    
     GCDynamicBackgroundView *backgroundView = (GCDynamicBackgroundView *)self.view;
-    backgroundView.startingColor = [UIColor colorWithRed:0.310f green:0.678f blue:0.914f alpha:1.00f];
-    backgroundView.endingColor = [UIColor colorWithRed:0.251f green:0.486f blue:0.639f alpha:1.00f];
+    backgroundView.startingColor = startColor;
+    backgroundView.endingColor = endColor;
+    self.view.tintColor = endColor;
 }
 
 - (IBAction)setBackgroundRed:(id)sender
 {
+    UIColor *startColor = [UIColor colorWithRed:0.933f green:0.267f blue:0.271f alpha:1.00f];
+    UIColor *endColor = [UIColor colorWithRed:0.565f green:0.137f blue:0.102f alpha:1.00f];
+    
     GCDynamicBackgroundView *backgroundView = (GCDynamicBackgroundView *)self.view;
-    backgroundView.startingColor = [UIColor colorWithRed:0.933f green:0.267f blue:0.271f alpha:1.00f];
-    backgroundView.endingColor = [UIColor colorWithRed:0.565f green:0.137f blue:0.102f alpha:1.00f];
+    backgroundView.startingColor = startColor;
+    backgroundView.endingColor = endColor;
+    self.view.tintColor = endColor;
 }
 @end

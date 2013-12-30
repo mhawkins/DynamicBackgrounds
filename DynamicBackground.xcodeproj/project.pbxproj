@@ -23,6 +23,8 @@
 		C9910F911871F7180021364E /* DynamicBackgroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9910F901871F7180021364E /* DynamicBackgroundTests.m */; };
 		C9910F9D1871F75D0021364E /* GCDynamicBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9910F9C1871F75D0021364E /* GCDynamicBackgroundView.m */; };
 		C9910F9F1871FDFC0021364E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9910F9E1871FDFC0021364E /* QuartzCore.framework */; };
+		C9910FA518723CB00021364E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C9910FA318723CB00021364E /* LICENSE */; };
+		C9910FA618723CB00021364E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C9910FA418723CB00021364E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		C9910F9B1871F75D0021364E /* GCDynamicBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDynamicBackgroundView.h; sourceTree = "<group>"; };
 		C9910F9C1871F75D0021364E /* GCDynamicBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDynamicBackgroundView.m; sourceTree = "<group>"; };
 		C9910F9E1871FDFC0021364E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C9910FA318723CB00021364E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C9910FA418723CB00021364E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 				C9910F8A1871F7180021364E /* DynamicBackgroundTests */,
 				C9910F641871F7170021364E /* Frameworks */,
 				C9910F631871F7170021364E /* Products */,
+				C9910FA318723CB00021364E /* LICENSE */,
+				C9910FA418723CB00021364E /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -248,6 +254,8 @@
 			files = (
 				C9910F7E1871F7180021364E /* Images.xcassets in Resources */,
 				C9910F701871F7180021364E /* InfoPlist.strings in Resources */,
+				C9910FA618723CB00021364E /* README.md in Resources */,
+				C9910FA518723CB00021364E /* LICENSE in Resources */,
 				C9910F791871F7180021364E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +487,7 @@
 				C9910F961871F7180021364E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9910F971871F7180021364E /* Build configuration list for PBXNativeTarget "DynamicBackgroundTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +496,7 @@
 				C9910F991871F7180021364E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

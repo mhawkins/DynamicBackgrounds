@@ -33,7 +33,6 @@
 {
     self = [super initWithCoder:aDecoder];
     if (self) {
-
         // Initialization code
         [self setupDefaults];
         [self initializeLayers];
@@ -100,21 +99,18 @@
 
     // Add our emitter cell to the layer
     self.emitterLayer.emitterCells = @[self.emitterCell];
-    
-    
 }
 
 -(void)layoutSubviews
 {
     [super layoutSubviews];
+    
     // Update emitter size and position based on bounds
     self.emitterLayer.emitterPosition = CGPointMake(CGRectGetWidth(self.bounds)/2.0, CGRectGetHeight(self.bounds)/2.0);
     self.emitterLayer.emitterSize = CGSizeMake(CGRectGetWidth(self.bounds), CGRectGetHeight(self.bounds));
 }
 
-
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
+// Draw our gradient background
 - (void)drawRect:(CGRect)rect
 {
     [super drawRect:rect];
